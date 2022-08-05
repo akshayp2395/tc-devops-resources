@@ -4,7 +4,7 @@ kind: ClusterConfig
 metadata:
   name: tc-devops
   region: us-east-1
-  version: 1.22
+  version: "1.22"
 
 nodeGroups:
   - name: tc-ng-1
