@@ -1,0 +1,12 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: tc-devops
+  region: us-east-1
+
+nodeGroups:
+  - name: tc-ng-1
+    instanceType: m5.large
+    desiredCapacity: 1
+    volumeSize: 80
